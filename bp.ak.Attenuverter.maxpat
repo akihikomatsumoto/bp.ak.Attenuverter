@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 171.0, 79.0, 734.0, 655.0 ],
+		"rect" : [ 576.0, 186.0, 734.0, 655.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -107,7 +107,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 381.562378, 486.71167, 51.0, 22.0 ],
+					"patching_rect" : [ 308.562378, 486.71167, 124.0, 22.0 ],
 					"style" : "",
 					"text" : "*~"
 				}
@@ -138,7 +138,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 507.062378, 392.711639, 44.0, 47.0 ],
+					"patching_rect" : [ 347.062378, 308.711639, 44.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.78066, 62.0, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
@@ -169,7 +169,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 507.062378, 461.711639, 43.0, 23.0 ],
+					"patching_rect" : [ 347.062378, 377.711639, 43.0, 23.0 ],
 					"style" : "",
 					"text" : "$1 20"
 				}
@@ -184,7 +184,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 507.062378, 491.711639, 40.0, 23.0 ],
+					"patching_rect" : [ 347.062378, 407.711639, 40.0, 23.0 ],
 					"style" : "",
 					"text" : "line~"
 				}
@@ -199,7 +199,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 385.562378, 537.71167, 140.5, 22.0 ],
+					"patching_rect" : [ 310.562378, 453.71167, 55.5, 22.0 ],
 					"style" : "",
 					"text" : "+~"
 				}
@@ -319,7 +319,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u212004935"
+					"varname" : "u507002200"
 				}
 
 			}
@@ -481,7 +481,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-131", 0 ]
 				}
 
@@ -495,14 +495,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-132", 0 ],
+					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-132", 0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -566,8 +566,8 @@
  ],
 		"parameters" : 		{
 			"obj-20" : [ "mute[2]", "mute", 0 ],
-			"obj-7" : [ "Bias", "Bias", 0 ],
-			"obj-2" : [ "Atten", "Atten", 0 ]
+			"obj-2" : [ "Atten", "Atten", 0 ],
+			"obj-7" : [ "Bias", "Bias", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
